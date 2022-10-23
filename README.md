@@ -5,6 +5,7 @@ author: Charlie Sakamaki
 ## TODO
 
 - Make call to action buttons... Email me
+- Add Nav bar and About Me, New Events page
 
 # Next.js + Tailwind CSS Example
 
