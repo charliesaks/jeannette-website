@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function UpcomingShows() {
   return (
-    <section className="bg-white">
+    <section className="bg-gray-100">
       <h1 className="pt-5 text-2xl md:text-5xl text-center text-gray-500 ">
         Upcoming Shows
       </h1>
