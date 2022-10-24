@@ -3,6 +3,7 @@ import Head from "next/head";
 import Hero from "../components/hero/hero";
 import Music from "../components/music";
 import PastConcerts from "../components/past-concerts";
+import Quotes from "../components/quotes";
 import Schedule from "../components/schedule";
 import Services from "../components/services";
 import UpcomingShows from "../components/upcoming-shows";
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <Services />
       <Videos />
       <Music />
+      <Quotes />
     </div>
   );
 };

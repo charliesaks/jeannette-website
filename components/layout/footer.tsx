@@ -12,7 +12,6 @@ function Footer() {
             <Link href="/" className="hover:underline">
               Jeannette Trevias™
             </Link>
-            å{" "}
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
