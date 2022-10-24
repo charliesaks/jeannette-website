@@ -7,6 +7,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      padding: "0.5rem",
+      center: true,
+    },
     extend: {
       fontFamily: {
         sans: ["Merienda", "Courgette", ...defaultTheme.fontFamily.sans],
@@ -14,5 +18,15 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("flowbite/plugin")],
+  plugins: [require("@tailwindcss/typography")],
 };
+
+// container: {
+//   padding: {
+//     DEFAULT: "1rem",
+//     sm: "2rem",
+//     lg: "4rem",
+//     xl: "5rem",
+//     "2xl": "6rem",
+//   },
+// },

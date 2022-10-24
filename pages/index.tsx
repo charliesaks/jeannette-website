@@ -12,7 +12,7 @@ import WeeklyGigs from "../components/weekly-gigs";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="flex flex-col">
       <Head>
         <title>Jeannette Trevias</title>
         <meta name="description" content="Musician Jeannette Trevias Website" />
