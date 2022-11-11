@@ -9,7 +9,7 @@ function Schedule() {
         </h1>
         <div className="pt-5 pb-10">
           <Image
-            src="/images/site/Schedule-2022-10.jpg"
+            src="/images/site/Schedule-2022-11.jpg"
             alt="Jeannette Trevias Schedule October 2022"
             width={600}
             height={400}
