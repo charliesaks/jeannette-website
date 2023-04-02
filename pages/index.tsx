@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <Schedule />
       <WeeklyGigs />
       {/* <UpcomingShows /> */}
-      <PastConcerts />
+      <UpcomingShows />
       <Services />
       <Videos />
       <Music />

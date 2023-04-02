@@ -1,4 +1,5 @@
 import Image from "next/image";
+import heroPic from "../../public/images/site/home-jumbotron.jpg";
 
 function Hero() {
   return (
@@ -7,13 +8,7 @@ function Hero() {
         Jeannette Casuga Trevias
       </h1>
       <div className="pt-10">
-        <Image
-          src="/images/site/home-jumbotron.jpg"
-          alt="Jeannette Trevias on location"
-          width={600}
-          height={400}
-          layout="responsive"
-        />
+        <Image src={heroPic} alt="Jeannette Trevias on location" />
       </div>
     </section>
   );

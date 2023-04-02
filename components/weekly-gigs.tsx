@@ -1,4 +1,8 @@
 import Image from "next/image";
+import koolinaLongboardsPic from "../public/images/site/Koolina-Longboards.jpg";
+import musicLoungePic from "../public/images/site/Music-Lounge.jpg";
+import verandaPic from "../public/images/site/Veranda.png";
+import waikikiYachtClubPic from "../public/images/site/Waikiki Yacht Club.jpeg";
 
 function WeeklyGigs() {
   return (
@@ -10,29 +14,23 @@ function WeeklyGigs() {
         <div className="columns-1 justify-around pb-10">
           <div className="text-center pt-5">
             <Image
-              src="/images/site/Koolina-Longboards.jpg"
+              src={koolinaLongboardsPic}
               alt="Jeannette Trevias at the Ko'olina Beach Club Longboards"
-              width={300}
-              height={250}
-              className="w-full aspect-auto"
             />
           </div>
-          <div className="text-center pt-5">
+          <div className="text-center pt-8">
             <Image
-              src="/images/site/Music-Lounge.jpg"
+              src={musicLoungePic}
               alt="Jeannette Trevias at the Music Lounge"
-              width={300}
-              height={300}
-              className="w-full aspect-auto"
             />
           </div>
-          <div className="text-center pt-5">
+          <div className="text-center pt-8">
+            <Image src={verandaPic} alt="Jeannette Trevias at the Veranda" />
+          </div>
+          <div className="text-center pt-8">
             <Image
-              src="/images/site/Veranda.jpg"
-              alt="Jeannette Trevias at the Veranda"
-              width={300}
-              height={200}
-              className="w-full aspect-auto"
+              src={waikikiYachtClubPic}
+              alt="Jeannette Trevias at the Waikiki Yacht Club"
             />
           </div>
         </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import schedulePic from "../public/images/site/Schedule-2023-04.jpg";
 
 function Schedule() {
   return (
@@ -9,11 +10,8 @@ function Schedule() {
         </h1>
         <div className="pt-5 pb-10">
           <Image
-            src="/images/site/Schedule-2023-03.jpg"
+            src={schedulePic}
             alt="Jeannette Trevias Schedule March 2023"
-            width={600}
-            height={400}
-            layout="responsive"
           />
         </div>
       </div>
