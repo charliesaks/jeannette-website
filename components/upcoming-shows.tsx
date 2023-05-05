@@ -1,7 +1,10 @@
 import Image from "next/image";
-import elksPic from "../public/images/site/Elks April 7.png";
-import hiltonPic from "../public/images/site/Hilton Hawaiian Village April 21.png";
-import rooftopPic from "../public/images/site/Rooftop April 23.jpeg";
+import elksPic from "../public/images/site/Elks.jpg";
+import beerworksPic from "../public/images/site/Beerworks.jpg";
+import rooftopPic from "../public/images/site/Rooftop.jpg";
+import birthdayPic from "../public/images/site/Birthday.jpg";
+import longboardsPic from "../public/images/site/Longboards.jpg";
+import waikikiYachtClubPic from "../public/images/site/WaikikiYachtClub.jpg";
 
 function UpcomingShows() {
   return (
@@ -16,12 +19,30 @@ function UpcomingShows() {
           </div>
           <div className="text-center pt-8">
             <Image
-              src={hiltonPic}
-              alt="Jeannette Trevias at the Hilton Hawaiian Village"
+              src={birthdayPic}
+              alt="Jeannette Trevias Birthday Celebration"
+            />
+          </div>
+          <div className="text-center pt-8">
+            <Image
+              src={waikikiYachtClubPic}
+              alt="Jeannette Trevias at the Waikiki Yacht Club"
             />
           </div>
           <div className="text-center pt-8">
             <Image src={rooftopPic} alt="Jeannette Trevias at the Rooftop" />
+          </div>
+          <div className="text-center pt-5">
+            <Image
+              src={longboardsPic}
+              alt="Jeannette Trevias at the Ko'olina Beach Club Longboards"
+            />
+          </div>
+          <div className="text-center pt-8">
+            <Image
+              src={beerworksPic}
+              alt="Jeannette Trevias at the Honolulu Beerworks"
+            />
           </div>
         </div>
       </div>

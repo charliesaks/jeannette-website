@@ -1,5 +1,5 @@
 import Image from "next/image";
-import schedulePic from "../public/images/site/Schedule-2023-04.jpg";
+import schedulePic from "../public/images/site/Schedule-2023-05.jpg";
 
 function Schedule() {
   return (
