@@ -11,9 +11,9 @@ function WeeklyGigs() {
           Weekly Gigs
         </h1>
         <div className="columns-1 justify-around pb-10">
-          <div className="text-center pt-8">
+          {/* <div className="text-center pt-8">
             <Image src={rockAHulaPic} alt="Jeannette Trevias at Rock-a-Hula" />
-          </div>
+          </div> */}
           <div className="text-center pt-8">
             <Image
               src={starOfHonoluluPic}
