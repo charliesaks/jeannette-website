@@ -61,12 +61,12 @@ function Quotes() {
             imageName="John-Loo-face.jpg"
             itemNum="2"
           />
-          <Quotation
+          {/* <Quotation
             author="Charlie Sakamaki"
             quote="Jeannette Trevias is one of the most amazing musicians I have ever met!"
             imageName="Charlie-Sakamaki-face.jpg"
             itemNum="3"
-          />
+          /> */}
         </Carousel>
       </div>
     </section>
