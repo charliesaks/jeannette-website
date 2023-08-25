@@ -9,10 +9,7 @@ function Schedule() {
           Schedule
         </h1>
         <div className="pt-5 pb-10 text-center">
-          <Image
-            src={schedulePic}
-            alt="Jeannette Trevias Schedule March 2023"
-          />
+          <Image src={schedulePic} alt="Jeannette Trevias Schedule" />
         </div>
       </div>
     </section>

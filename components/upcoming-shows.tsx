@@ -1,8 +1,9 @@
 import Image from "next/image";
 import pic04 from "../public/images/site/Beerworks.jpg";
-import pic05 from "../public/images/site/Puena.jpg";
+import pic05 from "../public/images/site/Hilton.jpg";
 import pic06 from "../public/images/site/Longboards.jpg";
-import pic07 from "../public/images/site/Hilton.jpg";
+import pic07 from "../public/images/site/LewersLounge.jpg";
+import pic08 from "../public/images/site/RoyalHawaiian.jpg";
 
 function UpcomingShows() {
   return (
@@ -15,21 +16,21 @@ function UpcomingShows() {
           <div className="text-center pt-8">
             <Image src={pic04} alt="Jeannette Trevias at Honolulu Beerworks" />
           </div>
-          {/* <div className="text-center pt-8">
-            <Image src={pic05} alt="Jeannette Trevias at the Puena Cafe" />
-          </div> */}
+          <div className="text-center pt-8">
+            <Image src={pic05} alt="Jeannette Trevias at the Hilton" />
+          </div>
           <div className="text-center pt-5">
             <Image
               src={pic06}
               alt="Jeannette Trevias at the Ko'olina Beach Club Longboards"
             />
           </div>
-          {/* <div className="text-center pt-8">
-            <Image
-              src={pic07}
-              alt="Jeannette Trevias at the Hilton Hawaiian Village"
-            />
-          </div> */}
+          <div className="text-center pt-8">
+            <Image src={pic07} alt="Jeannette Trevias at Lewers Lounge" />
+          </div>
+          <div className="text-center pt-8">
+            <Image src={pic08} alt="Jeannette Trevias at the Royal Hawaiian" />
+          </div>
         </div>
       </div>
     </section>
