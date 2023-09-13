@@ -1,6 +1,6 @@
 import Image from "next/image";
-import pic04 from "../public/images/site/Beerworks.jpg";
-import pic05 from "../public/images/site/Hilton.jpg";
+import pic04 from "../public/images/site/AsianBlend.jpg";
+import pic05 from "../public/images/site/Veranda.jpg";
 import pic06 from "../public/images/site/Longboards.jpg";
 import pic07 from "../public/images/site/LewersLounge.jpg";
 import pic08 from "../public/images/site/RoyalHawaiian.jpg";
@@ -14,12 +14,12 @@ function UpcomingShows() {
         </h1>
         <div className="columns-1 justify-around pt-5 pb-10">
           <div className="text-center pt-8">
-            <Image src={pic04} alt="Jeannette Trevias at Honolulu Beerworks" />
+            <Image src={pic04} alt="Jeannette Trevias with Asian Blend" />
           </div>
           <div className="text-center pt-8">
-            <Image src={pic05} alt="Jeannette Trevias at the Hilton" />
+            <Image src={pic05} alt="Jeannette Trevias at the Veranda" />
           </div>
-          <div className="text-center pt-5">
+          {/* <div className="text-center pt-5">
             <Image
               src={pic06}
               alt="Jeannette Trevias at the Ko'olina Beach Club Longboards"
@@ -30,7 +30,7 @@ function UpcomingShows() {
           </div>
           <div className="text-center pt-8">
             <Image src={pic08} alt="Jeannette Trevias at the Royal Hawaiian" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
