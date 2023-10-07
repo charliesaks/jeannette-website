@@ -1,4 +1,5 @@
 import Image from "next/image";
+import pic01 from "../public/images/site/Longboards.jpg";
 import rockAHulaPic from "../public/images/site/Rock-a-Hula.jpg";
 import starOfHonoluluPic from "../public/images/site/StarOfHonolulu.jpg";
 import verandaPic from "../public/images/site/Veranda.jpg";
@@ -15,10 +16,7 @@ function WeeklyGigs() {
             <Image src={rockAHulaPic} alt="Jeannette Trevias at Rock-a-Hula" />
           </div> */}
           <div className="text-center pt-8">
-            <Image
-              src={starOfHonoluluPic}
-              alt="Jeannette Trevias at Star of Honolulu"
-            />
+            <Image src={pic01} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
             <Image src={verandaPic} alt="Jeannette Trevias at the Veranda" />

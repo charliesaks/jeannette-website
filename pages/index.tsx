@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       </Head>
       <Hero />
       <Schedule />
-      {/* <WeeklyGigs /> */}
+      <WeeklyGigs />
       <UpcomingShows />
       <Services />
       <Videos />
