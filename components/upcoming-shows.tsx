@@ -3,7 +3,7 @@ import pic04 from "../public/images/site/WaikikiYachtClub.jpg";
 import pic05 from "../public/images/site/Hilton.jpg";
 import pic06 from "../public/images/site/HonoluluBeerWorks.jpg";
 import pic07 from "../public/images/site/Elks.jpg";
-import pic08 from "../public/images/site/RoyalHawaiian.jpg";
+import pic08 from "../public/images/site/Herringbone.jpg";
 
 function UpcomingShows() {
   return (
@@ -23,11 +23,11 @@ function UpcomingShows() {
             <Image src={pic06} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
+            <Image src={pic08} alt="Jeannette Trevias gig" />
+          </div>
+          <div className="text-center pt-8">
             <Image src={pic05} alt="Jeannette Trevias gig" />
           </div>
-          {/* <div className="text-center pt-8">
-            <Image src={pic08} alt="Jeannette Trevias at the Royal Hawaiian" />
-          </div> */}
         </div>
       </div>
     </section>
