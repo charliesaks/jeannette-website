@@ -1,7 +1,8 @@
 import Image from "next/image";
+import pic03 from "../public/images/site/Studio909.jpg";
 import pic04 from "../public/images/site/WaikikiYachtClub.jpg";
-import pic05 from "../public/images/site/Anyplace.jpg";
-import pic06 from "../public/images/site/HonoluluBeerWorks.jpg";
+import pic05 from "../public/images/site/Anyplace.png";
+import pic06 from "../public/images/site/HonoluluBeerWorks.png";
 import pic07 from "../public/images/site/Elks.jpg";
 import pic08 from "../public/images/site/InternationalMarketplace.jpg";
 
@@ -18,6 +19,9 @@ function UpcomingShows() {
           </div>
           <div className="text-center pt-8">
             <Image src={pic04} alt="Jeannette Trevias gig" />
+          </div>
+          <div className="text-center pt-8">
+            <Image src={pic03} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
             <Image src={pic08} alt="Jeannette Trevias gig" />
