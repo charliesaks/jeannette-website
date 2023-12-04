@@ -1,10 +1,11 @@
 import Image from "next/image";
-import pic03 from "../public/images/site/Studio909.jpg";
-import pic04 from "../public/images/site/WaikikiYachtClub.jpg";
-import pic05 from "../public/images/site/Anyplace.png";
-import pic06 from "../public/images/site/HonoluluBeerWorks.png";
-import pic07 from "../public/images/site/Elks.jpg";
-import pic08 from "../public/images/site/InternationalMarketplace.jpg";
+import pic02 from "../public/images/site/HonoluluBeerWorks.jpg";
+import pic03 from "../public/images/site/Hilton2.jpg";
+import pic04 from "../public/images/site/Hilton.jpg";
+import pic05 from "../public/images/site/Herringbone.jpg";
+// import pic06 from "../public/images/site/HonoluluBeerWorks.png";
+// import pic07 from "../public/images/site/Elks.jpg";
+// import pic08 from "../public/images/site/InternationalMarketplace.jpg";
 
 function UpcomingShows() {
   return (
@@ -15,23 +16,26 @@ function UpcomingShows() {
         </h1>
         <div className="columns-1 justify-around pt-5 pb-10">
           <div className="text-center pt-8">
-            <Image src={pic07} alt="Jeannette Trevias gig" />
-          </div>
-          <div className="text-center pt-8">
-            <Image src={pic04} alt="Jeannette Trevias gig" />
+            <Image src={pic02} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
             <Image src={pic03} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
-            <Image src={pic08} alt="Jeannette Trevias gig" />
+            <Image src={pic04} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
             <Image src={pic05} alt="Jeannette Trevias gig" />
           </div>
-          <div className="text-center pt-5">
+          {/* <div className="text-center pt-5">
             <Image src={pic06} alt="Jeannette Trevias gig" />
-          </div>
+          </div> */}
+          {/* <div className="text-center pt-8">
+            <Image src={pic07} alt="Jeannette Trevias gig" />
+          </div> */}
+          {/* <div className="text-center pt-8">
+            <Image src={pic08} alt="Jeannette Trevias gig" />
+          </div> */}
         </div>
       </div>
     </section>
