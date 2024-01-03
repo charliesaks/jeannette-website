@@ -1,8 +1,9 @@
 import Image from "next/image";
-import pic02 from "../public/images/site/HonoluluBeerWorks.jpg";
-import pic03 from "../public/images/site/Hilton2.jpg";
+import pic01 from "../public/images/site/MauiBrewingCompany.jpg";
+import pic02 from "../public/images/site/WaikikiYachtClub.jpg";
+import pic03 from "../public/images/site/Herringbone.jpg";
 import pic04 from "../public/images/site/Hilton.jpg";
-import pic05 from "../public/images/site/Herringbone.jpg";
+// import pic05 from "../public/images/site/Herringbone.jpg";
 // import pic06 from "../public/images/site/HonoluluBeerWorks.png";
 // import pic07 from "../public/images/site/Elks.jpg";
 // import pic08 from "../public/images/site/InternationalMarketplace.jpg";
@@ -22,11 +23,14 @@ function UpcomingShows() {
             <Image src={pic03} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
-            <Image src={pic04} alt="Jeannette Trevias gig" />
+            <Image src={pic01} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
-            <Image src={pic05} alt="Jeannette Trevias gig" />
+            <Image src={pic04} alt="Jeannette Trevias gig" />
           </div>
+          {/* <div className="text-center pt-8">
+            <Image src={pic05} alt="Jeannette Trevias gig" />
+          </div> */}
           {/* <div className="text-center pt-5">
             <Image src={pic06} alt="Jeannette Trevias gig" />
           </div> */}

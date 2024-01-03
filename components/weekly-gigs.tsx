@@ -1,8 +1,8 @@
 import Image from "next/image";
 import pic01 from "../public/images/site/Longboards.jpg";
-import rockAHulaPic from "../public/images/site/Rock-a-Hula.jpg";
-import starOfHonoluluPic from "../public/images/site/StarOfHonolulu.jpg";
-import verandaPic from "../public/images/site/Veranda.jpg";
+import pic02 from "../public/images/site/Herringbone2.jpg";
+import pic03 from "../public/images/site/StarOfHonolulu.jpg";
+import pic04 from "../public/images/site/Veranda.jpg";
 
 function WeeklyGigs() {
   return (
@@ -16,13 +16,13 @@ function WeeklyGigs() {
             <Image src={pic01} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
-            <Image
-              src={starOfHonoluluPic}
-              alt="Jeannette Trevias at Rock-a-Hula"
-            />
+            <Image src={pic03} alt="Jeannette Trevias gig" />
           </div>
           <div className="text-center pt-8">
-            <Image src={verandaPic} alt="Jeannette Trevias at the Veranda" />
+            <Image src={pic02} alt="Jeannette Trevias gig" />
+          </div>
+          <div className="text-center pt-8">
+            <Image src={pic04} alt="Jeannette Trevias gig" />
           </div>
         </div>
       </div>
