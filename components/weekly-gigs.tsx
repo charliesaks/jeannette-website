@@ -2,7 +2,6 @@ import Image from "next/image";
 import pic01 from "../public/images/site/Longboards.jpg";
 import pic02 from "../public/images/site/StarOfHonolulu.jpg";
 import pic03 from "../public/images/site/Herringbone.jpg";
-import pic04 from "../public/images/site/InternationalMarketplace.jpg";
 
 function WeeklyGigs() {
   return (
@@ -20,9 +19,6 @@ function WeeklyGigs() {
           </div>
           <div className="text-center pt-8">
             <Image src={pic03} alt="Jeannette Trevias gig" />
-          </div>
-          <div className="text-center pt-8">
-            <Image src={pic04} alt="Jeannette Trevias gig" />
           </div>
         </div>
       </div>

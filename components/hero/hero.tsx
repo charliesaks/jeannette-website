@@ -7,7 +7,7 @@ function Hero() {
       <h1 className="text-4xl md:text-7xl text-center text-white">
         Jeannette Casuga Trevias
       </h1>
-      <div className="pt-10">
+      <div className="pt-10 pb-10 text-center">
         <Image src={heroPic} alt="Jeannette Trevias on location" />
       </div>
     </section>

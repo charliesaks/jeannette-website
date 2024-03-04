@@ -1,12 +1,12 @@
 import Image from "next/image";
-import pic01 from "../public/images/site/Elks.jpg";
-import pic02 from "../public/images/site/SlackKeyLounge.jpg";
-import pic03 from "../public/images/site/WaikikiYachtClub.jpg";
-import pic04 from "../public/images/site/Chez.jpg";
+import pic01 from "../public/images/site/HonoluluBeerWorks.jpg";
+import pic02 from "../public/images/site/YokouchiPavilion.jpg";
+import pic03 from "../public/images/site/Elks.jpg";
+// import pic02 from "../public/images/site/SlackKeyLounge.jpg";
+// import pic03 from "../public/images/site/WaikikiYachtClub.jpg";
 // import pic04 from "../public/images/site/MauiBrewingCompany.jpg";
 // import pic05 from "../public/images/site/Herringbone.jpg";
 // import pic05 from "../public/images/site/Herringbone.jpg";
-// import pic06 from "../public/images/site/HonoluluBeerWorks.png";
 // import pic07 from "../public/images/site/Elks.jpg";
 // import pic08 from "../public/images/site/InternationalMarketplace.jpg";
 
@@ -27,9 +27,9 @@ function UpcomingShows() {
           <div className="text-center pt-8">
             <Image src={pic03} alt="Jeannette Trevias gig" />
           </div>
-          <div className="text-center pt-8">
+          {/* <div className="text-center pt-8">
             <Image src={pic04} alt="Jeannette Trevias gig" />
-          </div>
+          </div> */}
           {/* <div className="text-center pt-8">
             <Image src={pic05} alt="Jeannette Trevias gig" />
           </div> */}
