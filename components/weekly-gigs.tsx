@@ -1,6 +1,6 @@
 import Image from "next/image";
-import pic01 from "../public/images/site/Longboards.jpg";
-import pic02 from "../public/images/site/StarOfHonolulu.jpg";
+import pic01 from "../public/images/site/StarOfHonolulu.jpg";
+import pic02 from "../public/images/site/Longboards.jpg";
 import pic03 from "../public/images/site/Herringbone.jpg";
 
 function WeeklyGigs() {
